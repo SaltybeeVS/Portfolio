@@ -4,7 +4,7 @@ function  Header(){
     return(
         <>
             <header id="header">
-                <h1>Vicente Sandoval</h1>
+                <h1><a href="#" id="tittle">Vicente Sandoval</a></h1>
                 <nav id="navbar">
                     <ul>
                         <li><a href="#aboutMe">About me</a></li>

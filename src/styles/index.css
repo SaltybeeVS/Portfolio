@@ -28,7 +28,7 @@ body{
 }
 
 h1 {
-  color: var(--color-accent); 
+  color: var(--color-accent)!important; 
   font-size: 1.5rem; 
   margin: 0; 
   font-family: 'Orbitron', sans-serif;
