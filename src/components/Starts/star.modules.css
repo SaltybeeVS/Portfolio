@@ -2,10 +2,10 @@
     position: absolute;
     width: 2px;
     height: 2px;
-    background-color: white; /* Star color */
-    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.35); /* Glow effect */
-    opacity: 0; /* Initially hidden */
-    transition: opacity 1s; /* Smooth fade-in effect */
+    background-color: white; 
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.35); 
+    opacity: 0; 
+    transition: opacity 1s; 
   }
   
   /* Pulse animation for stars */
