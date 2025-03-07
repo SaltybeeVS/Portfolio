@@ -12,14 +12,20 @@
   --font-primary:'Roboto';
   --font-secondary: 'Orbitron';
 }
-
+html, body, #root{
+  height: 100%;
+  margin: 0!important;
+  padding: 0!important;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 html{
   scroll-behavior: smooth;
 }
 
 body{
-  margin: 0;
-  height: 100vh;
   background: radial-gradient(circle at bottom, #240046, #3c096c, #10002b);
   background-attachment: fixed; 
   background-size: cover;
