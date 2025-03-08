@@ -1,0 +1,43 @@
+.projectSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 100px 100px 100px;
+}
+
+.projectImg {
+    max-width: 100%; /* La imagen no superará el ancho del card */
+    height: auto; /* Mantiene la proporción de la imagen */
+    width: 400px; /* Tamaño base de la imagen */
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que los cards se envuelvan en pantallas pequeñas */
+    gap: 1.5rem; /* Espacio entre los cards */
+}
+
+.projectLink{
+    text-decoration: none;
+    
+}
+
+.projectIcon {
+    font-size: 2rem;
+    color: #FFF;
+}
+
+.iconSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.comingSoonImg{
+    width: 140px!important;
+}

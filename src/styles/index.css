@@ -16,10 +16,6 @@ html, body, #root{
   height: 100%;
   margin: 0!important;
   padding: 0!important;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 html{
   scroll-behavior: smooth;
@@ -47,4 +43,7 @@ h2{
 .highlight{
   color: var(--color-accent);
   font-weight: bold;
+}
+.comingSoonCard{
+  height: 354px;
 }
