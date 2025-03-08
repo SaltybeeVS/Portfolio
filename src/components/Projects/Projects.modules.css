@@ -7,17 +7,17 @@
 }
 
 .projectImg {
-    max-width: 100%; /* La imagen no superará el ancho del card */
-    height: auto; /* Mantiene la proporción de la imagen */
-    width: 400px; /* Tamaño base de la imagen */
+    max-width: 100%; 
+    height: auto;
+    width: 400px; 
 }
 
 .cardContainer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap; /* Permite que los cards se envuelvan en pantallas pequeñas */
-    gap: 1.5rem; /* Espacio entre los cards */
+    flex-wrap: wrap; 
+    gap: 1.5rem; 
 }
 
 .projectLink{

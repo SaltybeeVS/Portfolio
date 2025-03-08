@@ -17,7 +17,7 @@ import { FaReact } from "react-icons/fa";
 function Projects(){
     return(
         <>
-        <section className='projectSection'>
+        <section id="projects" className='projectSection'>
             <h2>Projects</h2>
             <p>See some of my latest projects!</p>
             <div className="cardContainer">
@@ -56,7 +56,7 @@ function Projects(){
                 </Card>
                 <Card>
                     <img className="projectImg " alt="Vicente Portfolio ScreenShot" src={VicentePortfolioScreenShot} />
-                    <h3><a className="projectLink highlight" href="#" target='_blank'>Vicente Portfolio</a></h3>
+                    <h3><a className="projectLink highlight" href="#">Vicente Portfolio</a></h3>
                     <div className="iconSection">
                         <FaReact className='projectIcon'/>
                         <FaHtml5 className='projectIcon'/>
@@ -66,7 +66,7 @@ function Projects(){
                 </Card>
                 <Card className="comingSoonCard">
                     <img className="projectImg comingSoonImg" alt="Coming Soon..." src={ComingSoon} />
-                    <h3><a className="projectLink highlight" href="#" target='_blank'>Coming soon...</a></h3>
+                    <h3 className="highlight">Coming soon...</h3>
                     <p>I am currently working on an Anime Catalog width <span className='highlight'>React.JS</span> to help me keep track of the anime I have already watched and the ones I want to watch in the future, as well as a Discord bot built with <span className='highlight'>Java</span>.</p>
                 </Card>
             </div>
