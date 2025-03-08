@@ -6,6 +6,7 @@
 }
 
 #aboutPhoto{
+    background-color: var(--color-primary);
     position: relative;
     max-width: 50%;
     height: auto;   
