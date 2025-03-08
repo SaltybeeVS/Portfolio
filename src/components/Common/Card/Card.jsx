@@ -1,9 +1,9 @@
 import './Card.modules.css';
 
-function Card({ children }){
+function Card({ children, className }){
     return (
         <>
-            <div className='card'>
+            <div className={`card ${className}`}>
                 {children}
             </div>
         </>

@@ -18,3 +18,7 @@
     box-shadow: 0 10px 20px rgba(248, 6, 204, 0.3);
     border-color: #F806CC;
 }
+
+.skillsCard{
+    width: calc(25% - 8rem)!important;
+}
