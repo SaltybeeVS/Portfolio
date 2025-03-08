@@ -8,7 +8,6 @@ import VicentePortfolioScreenShot from '../../assets/images/Vicente-Portfolio.pn
 import ComingSoon from '../../assets/images/Coming-Soon.png';
 import { FaWordpress, FaHtml5, FaCss3, FaJsSquare, FaPhp, FaReact, FaJava } from "react-icons/fa";
 
-// Datos de los proyectos
 const projectsData = [
   {
     id: 1,
@@ -35,20 +34,19 @@ const projectsData = [
     id: 4,
     image: VicentePortfolioScreenShot,
     title: "Vicente Portfolio",
-    link: "#", // Enlace vacío
+    link: "#",
     icons: [FaReact, FaHtml5, FaCss3, FaJsSquare],
   },
   {
     id: 5,
     image: ComingSoon,
     title: "Coming soon...",
-    link: null, // Sin enlace
+    link: null,
     description: "I am currently working on an Anime Catalog with <span className='highlight'>React.JS</span> to help me keep track of the anime I have already watched and the ones I want to watch in the future, as well as a Discord bot built with <span className='highlight'>Java</span>.",
-    icons: [], // Sin íconos
+    icons: [],
   },
 ];
 
-// Componente para cada tarjeta de proyecto
 const ProjectCard = ({ image, title, link, icons, description }) => {
   return (
     <Card>

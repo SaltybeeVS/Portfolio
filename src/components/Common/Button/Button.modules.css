@@ -8,9 +8,21 @@
     cursor: pointer;
     transition: background 0.3s ease, transform 0.2s ease;
     text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    margin: 0.5rem 0;
 }
 
 .button:hover {
     background-color: var(--color-highlight);
     transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+    .button {
+        width: auto;
+        margin: 0;
+    }
 }

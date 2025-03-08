@@ -1,14 +1,17 @@
-#hero{
+#hero {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 100px 100px 200px 100px;
+    margin: 50px 20px;
+    text-align: center;
 }
 
-#heroImg{
+#heroImg {
     height: auto;
-    max-width: 600px;
+    max-width: 100%;
     animation: float 2s ease-in-out infinite;
+    margin-top: 2rem;
 }
 
 #hero article h3 {
@@ -17,7 +20,7 @@
 
 #hero article button {
     margin-top: 20px;
-    display: block; /* Hace que el botón se separe del párrafo */
+    display: block;
 }
 
 @keyframes float {
@@ -29,5 +32,21 @@
     }
     100% {
         transform: scaleX(-1) translateY(0);
+    }
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+    #hero {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 100px 100px 200px 100px;
+        text-align: left;
+    }
+
+    #heroImg {
+        max-width: 600px;
+        margin-top: 0;
     }
 }
