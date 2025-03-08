@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 100px ;
+    margin: 100px 100px 200px 100px;
 }
 
 #heroImg{
