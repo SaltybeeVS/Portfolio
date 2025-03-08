@@ -3,26 +3,26 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0 100px 200px 100px;
+    margin: 50px 20px;
+    padding: 20px;
 }
 
 .projectImg {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
-    width: 400px; 
+    width: 100%;
 }
 
 .cardContainer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap; 
-    gap: 1.5rem; 
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
-.projectLink{
+.projectLink {
     text-decoration: none;
-    
 }
 
 .projectIcon {
@@ -30,7 +30,7 @@
     color: #FFF;
 }
 
-.iconSection{
+.iconSection {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -38,7 +38,17 @@
     flex-direction: row;
 }
 
-.comingSoonImg{
-    height: 120px!important;
-    width: 140px!important;
+.comingSoonImg {
+    height: 120px !important;
+    width: 140px !important;
+}
+
+@media (min-width: 768px) {
+    .projectSection {
+        margin: 0 100px 200px 100px;
+    }
+
+    .projectImg {
+        width: 400px;
+    }
 }

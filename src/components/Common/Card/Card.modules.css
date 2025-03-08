@@ -5,12 +5,13 @@
     border-radius: 10px;
     border: 2px solid #570A57;
     transition: transform 0.3s ease-out, box-shadow 0.5s ease-out, border-color 0.5s ease-out;
-    width: calc(25% - 1.5rem); /* Ancho del card */
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: hidden; /* Evita que el contenido se salga del card */
+    overflow: hidden;
+    margin: 1rem 0;
 }
 
 .card:hover {
@@ -19,6 +20,17 @@
     border-color: #F806CC;
 }
 
-.skillsCard{
-    width: calc(25% - 8rem)!important;
+.skillsCard {
+    width: 100% !important;
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: calc(25% - 1.5rem);
+        margin: 0.75rem;
+    }
+
+    .skillsCard {
+        width: calc(25% - 8rem) !important;
+    }
 }

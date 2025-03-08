@@ -9,22 +9,22 @@ function Form({ fields, onSubmit }) {
 
     emailjs
       .sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID, 
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        e.target, 
-        import.meta.env.VITE_EMAILJS_USER_ID 
+        e.target,
+        import.meta.env.VITE_EMAILJS_USER_ID
       )
       .then(
         (result) => {
           console.log('Email sent successfully!', result.text);
-          alert('Message sent! I\'ll contact you soon!'); 
+          alert('Message sent! I\'ll contact you soon!');
           if (onSubmit) {
-            onSubmit(e); 
+            onSubmit(e);
           }
         },
         (error) => {
           console.log('Failed to send email.', error.text);
-          alert('Failed to send message. Please try again.'); 
+          alert('Failed to send message. Please try again.');
         }
       );
   };
@@ -40,7 +40,7 @@ function Form({ fields, onSubmit }) {
             <input
               id={field.id}
               type={field.type}
-              name={field.id} 
+              name={field.id}
               placeholder={field.placeholder}
               pattern={field.pattern}
               required={field.required}
