@@ -1,0 +1,35 @@
+#contactMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px 100px 100px;
+}
+
+#contactMe ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#contactMe li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+#contactMeText{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.contactMeIcons{
+    font-size: 50px;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.contactMeIcons:hover{
+    color: var(--color-accent);
+    transform: scale(1.5);
+}
