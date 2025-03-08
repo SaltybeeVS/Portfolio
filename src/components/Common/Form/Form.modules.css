@@ -1,0 +1,30 @@
+#form {
+    background-color: var(--color-primary);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 450px;
+}
+
+.label {
+    font-weight: bold;
+    color: var(--color-text);
+    margin-bottom: 0.3rem;
+}
+
+input {
+    width: calc(100% - 1.6rem); /* Ajuste para evitar que se pegue a la derecha */
+    padding: 0.8rem;
+    border: 2px solid var(--color-secondary);
+    border-radius: 5px;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    margin: auto; /* Centra los inputs */
+}

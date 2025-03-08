@@ -5,11 +5,10 @@ import Hero from "./components/Hero/Hero.jsx";
 import Projects from "./components/Projects/Projects.jsx";
 import AboutMe from "./components/AboutMe/AboutMe.jsx";
 import Skills from "./components/Skills/Skills.jsx";
+import ContactMe from "./components/ContactMe/ContactMe.jsx";
 
 
 function App() {
-
-
   return (
     <>
       <StarSystem />
@@ -18,6 +17,7 @@ function App() {
       <Projects/>
       <AboutMe/>
       <Skills/>
+      <ContactMe/>
       <Footer />
     </>
   )
