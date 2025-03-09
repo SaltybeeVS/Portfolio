@@ -1,13 +1,27 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next'; 
 import './TypingEffect.modules.css';
 
 function TypingEffect() {
-  const phrases = useRef(["Web Developer!", "Wordpress Developer!", "React.JS Developer!", "Next.JS Developer!", "Java Developer!"]);
+  const { t, i18n } = useTranslation(); 
   const [currentPhrase, setCurrentPhrase] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
   const [phraseIndex, setPhraseIndex] = useState(0);
 
+
+  const phrases = useRef(t("HeroPhrases", { returnObjects: true }));
+
+  // Escuchar cambios en el idioma
+  useEffect(() => {
+    phrases.current = t("HeroPhrases", { returnObjects: true });
+    setCurrentPhrase(''); 
+    setCurrentIndex(0); 
+    setPhraseIndex(0); 
+    setIsTyping(true); 
+  }, [i18n.language, t]); 
+
+ 
   useEffect(function () {
     let timeout;
 
@@ -47,7 +61,7 @@ function TypingEffect() {
     return function () {
       clearTimeout(timeout);
     };
-  }, [currentIndex, isTyping, phraseIndex]);
+  }, [currentIndex, isTyping, phraseIndex, phrases]);
 
   return (
     <span className="highlight">

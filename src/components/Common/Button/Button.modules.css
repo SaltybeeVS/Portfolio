@@ -20,6 +20,10 @@
     transform: scale(1.05);
 }
 
+.fullWidth{
+    max-width: 100%!important;
+}
+
 @media (min-width: 768px) {
     .button {
         width: auto;
