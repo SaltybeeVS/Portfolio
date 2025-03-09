@@ -1,0 +1,19 @@
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.35);
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0.1;
+  }
+}

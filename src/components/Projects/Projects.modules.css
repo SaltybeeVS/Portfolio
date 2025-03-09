@@ -1,0 +1,57 @@
+.projectSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 20px;
+    padding: 20px;
+}
+
+.projectImg {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.projectLink {
+    text-decoration: none;
+}
+
+.projectIcon {
+    font-size: 2rem;
+    color: #FFF;
+}
+
+.iconSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.comingSoonImg {
+    height: 120px !important;
+    width: 140px !important;
+}
+.projectsDescription{
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .projectSection {
+        margin: 0 100px 200px 100px;
+    }
+
+    .projectImg {
+        width: 400px;
+    }
+}
