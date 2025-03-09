@@ -45,8 +45,12 @@ h1 a {
     text-decoration: none;
     color: var(--color-accent);
 }
+.navContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/* Oculta el menú y centra el título en pantallas pequeñas */
 @media (max-width: 768px) {
     #header {
         justify-content: center;
@@ -54,5 +58,14 @@ h1 a {
 
     #navbar {
         display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    #header{
+        display: flex;
+        justify-content: space-around; 
+        align-items: center ;
+        flex-direction: row;
     }
 }

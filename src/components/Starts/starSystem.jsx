@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import Star from "./star.jsx";
+import Star from "./Star/star.jsx";
 import "./StarSystem.modules.css";
 
 function StarSystem() {

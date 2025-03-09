@@ -1,21 +1,29 @@
+import React from 'react';
+import { useTranslation } from 'react-i18next'; 
 import './Hero.modules.css';
-import Astronaut from '../../assets/images/Astronaut.png';
+import Astronaut from '../../assets/images/Hero/Astronaut.png';
 import Button from '../Common/Button/Button';
-import TypingEffect from './TypingEffect';
+import TypingEffect from './TypingEffect/TypingEffect.jsx';
 
 function Hero() {
-    return (
-        <section id="hero">
-            <article>
-                <h2>I am Vicente Sandoval, <TypingEffect /></h2>
-                <h3>Passionate about building things that solve problems and bring ideas to life. <br /> Let's create something awesome together!</h3>
-                <Button link="#contactMe">Contact Me!</Button>
-            </article>
-            <figure>
-                <img id="heroImg" alt="Astronaut" src={Astronaut} />
-            </figure>
-        </section>
-    );
+  const { t } = useTranslation(); 
+
+  return (
+    <section id="hero">
+      <article>
+        <h2>
+          {t("HeroWelcome")} <TypingEffect /> 
+        </h2>
+        <h3>
+          {t("HeroParagraph1")} <br /> {t("HeroParagraph2")} 
+        </h3>
+        <Button link="#contactMe">{t("HeroButton")}</Button> 
+      </article>
+      <figure>
+        <img id="heroImg" alt="Astronaut" src={Astronaut} />
+      </figure>
+    </section>
+  );
 }
 
 export default Hero;

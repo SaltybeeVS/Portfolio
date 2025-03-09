@@ -3,7 +3,7 @@ import Button from '../Button/Button.jsx';
 import emailjs from 'emailjs-com';
 import './Form.modules.css';
 
-function Form({ fields, onSubmit }) {
+function Form({ fields, onSubmit, buttonText }) { // Recibir buttonText como prop
   const handleSubmit = function (e) {
     e.preventDefault();
 
@@ -49,7 +49,7 @@ function Form({ fields, onSubmit }) {
           </div>
         );
       })}
-      <Button isSubmit>Send!</Button>
+      <Button isSubmit>{buttonText}</Button>
     </form>
   );
 }

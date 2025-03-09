@@ -3,7 +3,7 @@ import './Button.modules.css';
 function Button({ children, isSubmit = false, link, ...props }) {
     if (isSubmit) {
         return (
-            <button id="form-btn" className="button" type="submit" {...props}>{children}</button>
+            <button id="form-btn" className="button fullWidth" type="submit" {...props}>{children}</button>
         );
     }
 

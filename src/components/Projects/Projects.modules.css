@@ -42,6 +42,9 @@
     height: 120px !important;
     width: 140px !important;
 }
+.projectsDescription{
+    font-size: 20px;
+}
 
 @media (min-width: 768px) {
     .projectSection {
