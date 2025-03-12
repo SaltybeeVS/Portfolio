@@ -6,6 +6,7 @@ import SertrasScreenshot from "../../assets/images/Projects/Sertras-ScreenShot.p
 import LeanScreenshot from '../../assets/images/Projects/Lean-Screenshot.png';
 import RamoScreenshot from '../../assets/images/Projects/Ramo-Screenshot.png';
 import VicentePortfolioScreenShot from '../../assets/images/Projects/Vicente-Portfolio.png';
+import AnimeCatalog from '../../assets/images/Projects/AnimeCatalog.png';
 import ComingSoon from '../../assets/images/Projects/Coming-Soon.png';
 import { FaWordpress, FaHtml5, FaCss3, FaJsSquare, FaPhp, FaReact, FaJava } from "react-icons/fa";
 
@@ -43,6 +44,13 @@ function Projects() {
     },
     {
       id: 5,
+      image: AnimeCatalog,
+      title: "Anime Catalog",
+      link: "https://saltybeevs.github.io/Anime-Catalog/",
+      icons: [FaReact, FaHtml5, FaCss3, FaJsSquare],
+    },
+    {
+      id: 6,
       image: ComingSoon,
       title: t("ProjectComingTitle"),
       link: null,
