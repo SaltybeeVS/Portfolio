@@ -56,7 +56,7 @@ function Projects() {
       id: 6,
       image: WeatherApp,
       title: "Weather App",
-      link: "https://github.com/SaltybeeVS/Weather-App",
+      link: "https://saltybeevs.github.io/Weather-App/",
       icons: [FaReact, FaHtml5, RiTailwindCssFill, FaJsSquare],
     },
     {
