@@ -7,8 +7,11 @@ import LeanScreenshot from '../../assets/images/Projects/Lean-Screenshot.png';
 import RamoScreenshot from '../../assets/images/Projects/Ramo-Screenshot.png';
 import VicentePortfolioScreenShot from '../../assets/images/Projects/Vicente-Portfolio.png';
 import AnimeCatalog from '../../assets/images/Projects/AnimeCatalog.png';
+import WeatherApp from '../../assets/images/Projects/Weather-App.png';
 import ComingSoon from '../../assets/images/Projects/Coming-Soon.png';
 import { FaWordpress, FaHtml5, FaCss3, FaJsSquare, FaPhp, FaReact, FaJava } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+
 
 function Projects() {
   const { t } = useTranslation();
@@ -51,6 +54,13 @@ function Projects() {
     },
     {
       id: 6,
+      image: WeatherApp,
+      title: "Weather App",
+      link: "https://github.com/SaltybeeVS/Weather-App",
+      icons: [FaReact, FaHtml5, RiTailwindCssFill, FaJsSquare],
+    },
+    {
+      id: 7,
       image: ComingSoon,
       title: t("ProjectComingTitle"),
       link: null,
