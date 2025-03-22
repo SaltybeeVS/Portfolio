@@ -17,7 +17,7 @@
     "ProjectTitle": "Projects",
     "ProjectParagraph": "Check out some of my latest projects!",
     "ProjectComingTitle": "Coming soon...",
-    "ProjectComingParagraph": "I’m currently working on a Weather App with React.JS to check real-time weather conditions and forecasts, as well as a Discord bot built with JavaScript.",
+    "ProjectComingParagraph": "I’m currently working on a Discord bot built with TypeScript that acts as a robotic version of me to keep my friends entertained while I’m offline. After completing the bot, my next project will be a terminal-style application using Next.js and TypeScript to navigate and explore the SCP Foundation's extensive file system.",
     "AboutTitle": "Let me introduce myself!",
     "AboutParagraph1": "I tripped over a line of code and fell headfirst into the world of programming. Four years later, I’m still here, building innovative solutions and solving complex problems as a developer.",
     "AboutParagraph2":"My journey started with a curiosity for technology, and it quickly turned into a full-blown passion for creating software that makes a difference. These days, I’m diving deep into Java, but I’m always eager to explore new programming languages, frameworks, and tech stacks. Who knows? Maybe my next big breakthrough is just around the corner.",
