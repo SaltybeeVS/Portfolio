@@ -19,8 +19,8 @@ function Skills() {
     { icon: <RiNextjsLine />, percentage: 60, color: '#F806CC', description: t("SkillsNextJS") },
     { icon: <FaAngular />, percentage: 60, color: '#F806CC', description: t("SkillsAngular") },
     { icon: <FaPhp />, percentage: 50, color: '#F806CC', description: t("SkillsPHP") },
-    { icon: <FaJava />, percentage: 60, color: '#F806CC', description: t("SkillsJava") },
     { icon: <SiTypescript />, percentage: 60, color: '#F806CC', description: t("SkillsTypescript") },
+    { icon: <FaJava />, percentage: 60, color: '#F806CC', description: t("SkillsJava") },
   ];
 
   return (
