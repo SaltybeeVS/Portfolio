@@ -8,9 +8,11 @@ import RamoScreenshot from '../../assets/images/Projects/Ramo-Screenshot.png';
 import VicentePortfolioScreenShot from '../../assets/images/Projects/Vicente-Portfolio.png';
 import AnimeCatalog from '../../assets/images/Projects/AnimeCatalog.png';
 import WeatherApp from '../../assets/images/Projects/Weather-App.png';
+import PetAdoption from '../../assets/images/Projects/Pet-Adoption.png';
 import ComingSoon from '../../assets/images/Projects/Coming-Soon.png';
-import { FaWordpress, FaHtml5, FaCss3, FaJsSquare, FaPhp, FaReact, FaJava } from "react-icons/fa";
+import { FaWordpress, FaHtml5, FaCss3, FaJsSquare, FaPhp, FaReact, FaJava, FaAngular } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
 
 
 function Projects() {
@@ -57,10 +59,17 @@ function Projects() {
       image: WeatherApp,
       title: "Weather App",
       link: "https://saltybeevs.github.io/Weather-App/",
-      icons: [FaReact, FaHtml5, RiTailwindCssFill, FaJsSquare],
+      icons: [FaAngular, FaHtml5, FaCss3, FaJsSquare],
     },
     {
       id: 7,
+      image: PetAdoption,
+      title: "Adopt.me",
+      link: "https://github.com/SaltybeeVS/Pet-Adoption",
+      icons: [FaReact, FaHtml5, RiTailwindCssFill, SiTypescript],
+    },
+    {
+      id: 8,
       image: ComingSoon,
       title: t("ProjectComingTitle"),
       link: null,
