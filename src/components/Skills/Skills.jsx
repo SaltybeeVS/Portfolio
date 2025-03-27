@@ -3,7 +3,9 @@ import { useTranslation } from 'react-i18next';
 import './Skills.modules.css';
 import Card from '../Common/Card/Card.jsx';
 import { RiNextjsLine } from "react-icons/ri";
-import { FaWordpress, FaHtml5, FaCss3, FaJsSquare, FaPhp, FaReact, FaJava } from "react-icons/fa";
+import { FaWordpress, FaHtml5, FaCss3, FaJsSquare, FaPhp, FaReact, FaJava, FaAngular } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
+
 
 function Skills() {
   const { t } = useTranslation();
@@ -13,10 +15,12 @@ function Skills() {
     { icon: <FaCss3 />, percentage: 90, color: '#F806CC', description: t("SkillsCSS") },
     { icon: <FaJsSquare />, percentage: 90, color: '#F806CC', description: t("SkillsJS") },
     { icon: <FaWordpress />, percentage: 90, color: '#F806CC', description: t("SkillsWordPress") },
-    { icon: <FaReact />, percentage: 60, color: '#F806CC', description: t("SkillsReact") },
-    { icon: <RiNextjsLine />, percentage: 40, color: '#F806CC', description: t("SkillsNextJS") },
+    { icon: <FaReact />, percentage: 90, color: '#F806CC', description: t("SkillsReact") },
+    { icon: <RiNextjsLine />, percentage: 60, color: '#F806CC', description: t("SkillsNextJS") },
+    { icon: <FaAngular />, percentage: 60, color: '#F806CC', description: t("SkillsAngular") },
     { icon: <FaPhp />, percentage: 50, color: '#F806CC', description: t("SkillsPHP") },
     { icon: <FaJava />, percentage: 60, color: '#F806CC', description: t("SkillsJava") },
+    { icon: <SiTypescript />, percentage: 60, color: '#F806CC', description: t("SkillsTypescript") },
   ];
 
   return (
