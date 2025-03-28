@@ -59,14 +59,14 @@ function Projects() {
       image: WeatherApp,
       title: "Weather App",
       link: "https://saltybeevs.github.io/Weather-App/",
-      icons: [FaAngular, FaHtml5, FaCss3, FaJsSquare],
+      icons: [FaReact, FaHtml5, RiTailwindCssFill, FaJsSquare],
     },
     {
       id: 7,
       image: PetAdoption,
       title: "Adopt.me",
       link: "https://github.com/SaltybeeVS/Pet-Adoption",
-      icons: [FaReact, FaHtml5, RiTailwindCssFill, SiTypescript],
+      icons: [FaAngular, FaHtml5, FaCss3, SiTypescript],
     },
     {
       id: 8,
