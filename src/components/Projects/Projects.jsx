@@ -9,6 +9,7 @@ import VicentePortfolioScreenShot from '../../assets/images/Projects/Vicente-Por
 import AnimeCatalog from '../../assets/images/Projects/AnimeCatalog.png';
 import WeatherApp from '../../assets/images/Projects/Weather-App.png';
 import PetAdoption from '../../assets/images/Projects/Pet-Adoption.png';
+import EasyTrack from '../../assets/images/Projects/Easy-Track.png';
 import ComingSoon from '../../assets/images/Projects/Coming-Soon.png';
 import { FaWordpress, FaHtml5, FaCss3, FaJsSquare, FaPhp, FaReact, FaJava, FaAngular } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -70,6 +71,13 @@ function Projects() {
     },
     {
       id: 8,
+      image: EasyTrack,
+      title: "Easy Track",
+      link: "https://saltybeevs.github.io/Easy-Track/",
+      icons: [FaAngular, FaHtml5, FaCss3, SiTypescript],
+    },
+    {
+      id: 9,
       image: ComingSoon,
       title: t("ProjectComingTitle"),
       link: null,
